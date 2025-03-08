@@ -29,6 +29,7 @@ function Sidebar() {
       { label: "Dashboard", icon: "bi-bar-chart", link: "/statistics" },
       { label: "Add Leaders Users", icon: "bi-person-plus", link: "../addusers" },
       { label: "List of Leaders", icon: "bi-person-lines-fill", link: "../users" },
+      { label: "List of citizens", icon: "bi-person-lines-fill", link: "../citizens" },
       { label: "Manage Post Types", icon: "bi-tags", link: "../post_type" },
       { label: "Notifications", icon: "bi-bell", link: "../notifications" },
     ],
