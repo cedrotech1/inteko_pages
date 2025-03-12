@@ -24,6 +24,8 @@ import Penarite from './pages/admin/PenarityPage'
 import PenariteUser from './pages/admin/UserPenarityPage'
 import AddPost from './pages/admin/AddPostPage'
 import Citizens from './pages/admin/usersCitizens'
+import Report from './pages/admin/ReportPage'
+import Fine from './pages/admin/FinePage'
 
 
 
@@ -58,6 +60,8 @@ const MainLayout = () => {
           <Route path="/addpost"  element={<AddPost />} />
           <Route path="/citizens"  element={<Citizens />} />
           <Route path="/attendance/:postID"  element={<Attandance />} />
+          <Route path="/report"  element={<Report/>} />
+          <Route path="/fines"  element={<Fine/>} />
     
         </Routes>
       </div>
